@@ -10,6 +10,7 @@
     "react-google-maps": "^9.4.5",
     "react-scripts": "1.1.5",
     "react-throttle": "^0.3.0",
+    "recompose": "^0.29.0",
     "sort-by": "^1.2.0"
   },
   "scripts": {
