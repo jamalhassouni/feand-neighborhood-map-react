@@ -1,42 +1,42 @@
 [
   {
-    "id": "ChIJE7vTkFe2pw0RchU9vu268FU",
+    "id": "4e63dbbae4cdf1e2bfea1401",
     "name": "Pizzeria Paolo",
     "position": {
-      "lat": 33.6795758,
-      "lng": -7.4114479
+      "lat": 33.70359108788033,
+      "lng": -7.39924036134158
     }
   },
   {
-    "id": "ChIJpf__UlS2pw0RPa1l_jRM6mA",
+    "id": "5335f7ad498ef9eef80f4575",
     "name": "Le Comptoir du Sushi",
     "position": {
-      "lat": 33.6795758,
-      "lng": -7.4114479
+      "lat": 33.70540048152051,
+      "lng": -7.39522769220772
     }
   },
   {
-    "id": "ChIJGcoy1Kq3pw0RF4f-gxjgPys",
+    "id": "4c2667dba852c9283c9ae66c",
     "name": "Restaurant du Port",
     "position": {
-      "lat": 33.6795758,
-      "lng": -7.4114479
+      "lat": 33.709265980042765,
+      "lng": 7.397323626860781
     }
   },
   {
-    "id": "ChIJ2y0Eefu2pw0Rth1cWHkx1GU",
-    "name": "Chez Madame Andrée ",
+    "id": "4ed0ee066c2510ace187257a",
+    "name": "Restaurant La Pêche",
     "position": {
-      "lat": 33.6795758,
-      "lng": -7.4114479
+      "lat": 33.708578490610016,
+      "lng": -7.399292126066088
     }
   },
   {
-    "id": "ChIJMdgAPlW2pw0R2brImRUayAs",
+    "id": "4e2b347ca809f1b1640d93b6",
     "name": "Restaurant du Parc",
     "position": {
-      "lat": 33.6795758,
-      "lng": -7.4114479
+      "lat": 33.70741635947483,
+      "lng":-7.396355551992723
     }
   }
 ]
