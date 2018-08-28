@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #37474f;
+  background-color:#273c75;
   padding: 1em;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.45);
 }
@@ -41,7 +41,23 @@ a:hover
 {
   color: tomato;
 }
-
+@media (max-width: 1179px) {
+  .nav-toggle.expanded {
+    left: 29px;
+    top: 18px;
+    width: 29px;
+}
+.nav-toggle {
+  left: 29px !important;
+  top: 18px !important;
+  width: 52px !important;
+}
+}
+@media (max-width: 679px) {
+  .nav-toggle .nav-toggle-bar {
+    display: none;
+}
+}
 .nav-toggle {
   -webkit-user-select: none;
   -moz-user-select: none;
