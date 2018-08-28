@@ -1,0 +1,42 @@
+[
+  {
+    "id": "ChIJE7vTkFe2pw0RchU9vu268FU",
+    "name": "Pizzeria Paolo",
+    "position": {
+      "lat": 33.6795758,
+      "lng": -7.4114479
+    }
+  },
+  {
+    "id": "ChIJpf__UlS2pw0RPa1l_jRM6mA",
+    "name": "Le Comptoir du Sushi",
+    "position": {
+      "lat": 33.6795758,
+      "lng": -7.4114479
+    }
+  },
+  {
+    "id": "ChIJGcoy1Kq3pw0RF4f-gxjgPys",
+    "name": "Restaurant du Port",
+    "position": {
+      "lat": 33.6795758,
+      "lng": -7.4114479
+    }
+  },
+  {
+    "id": "ChIJ2y0Eefu2pw0Rth1cWHkx1GU",
+    "name": "Chez Madame Andrée ",
+    "position": {
+      "lat": 33.6795758,
+      "lng": -7.4114479
+    }
+  },
+  {
+    "id": "ChIJMdgAPlW2pw0R2brImRUayAs",
+    "name": "Restaurant du Parc",
+    "position": {
+      "lat": 33.6795758,
+      "lng": -7.4114479
+    }
+  }
+]
