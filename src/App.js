@@ -4,8 +4,10 @@ import sortBy from 'sort-by';
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Filter from './components/Filter/Filter';
+import { MAP_API_KEY } from './utils/apiKeys';
 import PlacesData from './utils/placesData.json';
-
+import Map from './components/Map/Map';
+import Error from './components/Error/Error';
 
 import "./App.css";
 
@@ -91,7 +93,21 @@ class App extends Component {
               filterPlaces={this.filterPlaces}
             />
           }
-
+        {
+          <Map
+              onToggleOpen={this.onToggleOpen}
+              showInfoId={this.state.showInfoId}
+              action={this.state.action}
+              places={this.state.places}
+              showingPlaces={this.state.showingPlaces}
+              containerElement={<main className="map" role="application" tabIndex="0"></main>}
+              mapElement={<div style={{ height: `100%` }}></div>}
+              loadingElement={
+                <Error message={'There was an error while loading the Google Maps scripts. Please try again later.'} />
+              }
+              googleMapURL={`https://maps.googleapis.com/maps/api/js?key=${MAP_API_KEY}&v=3`}
+            />
+        }
             </div>
         <Footer />
       </div>
