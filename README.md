@@ -31,6 +31,12 @@ A new browser window open automatically displaying the app.  If it doesn't, navi
 ***NOTE:*** *The service workers for this app will only cache the site when it is in production mode.*
 - More information [Here](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#offline-first-considerations)
 
+## How to run the project in Production Mode
+
+1. Build the production ready optimised code. `npm run build`
+2. Deploy it to [netlify](https://www.netlify.com) by `netlify deploy`
+3. Check the online demo [here](http://neighbormap.netlify.com)
+
 ## Technology
 - ReactJs
 - HTML
